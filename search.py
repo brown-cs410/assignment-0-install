@@ -20,8 +20,9 @@ def bfs(problem: SearchProblem[State]) -> Tuple[List[State], Dict[str, int]]:
     """
     # TODO: Update these values
     stats = {"path_length": 0, "states_expanded": 0, "max_frontier_size": 0} 
+    path = []
     
-    pass
+    return path, stats
 
 def dfs(problem: SearchProblem[State]) -> Tuple[List[State], Dict[str, int]]:
     """
@@ -40,8 +41,9 @@ def dfs(problem: SearchProblem[State]) -> Tuple[List[State], Dict[str, int]]:
     """
     # TODO: Update these values
     stats = {"path_length": 0, "states_expanded": 0, "max_frontier_size": 0}
+    path = []
     
-    pass
+    return path, stats
 
 ############### SANDBOX ###############
 def main():
