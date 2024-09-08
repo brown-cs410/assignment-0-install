@@ -2,7 +2,7 @@ import unittest
 
 from maze import Maze
 from search import bfs, dfs
-
+from directed_graph import DirectedGraph
 
 class IOTest(unittest.TestCase):
     """
