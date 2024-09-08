@@ -28,7 +28,7 @@ class IOTest(unittest.TestCase):
         length: length that the path returned from algorithm should be.
                 Think about why this argument is optional, and when you should provide it.
         """
-        path = algorithm(maze)
+        path = algorithm(maze)[0]
         self.assertEqual(path[0], maze.get_start_state(),
                          "Path should start with the start state")
         self.assertTrue(maze.is_goal_state(path[-1]),
